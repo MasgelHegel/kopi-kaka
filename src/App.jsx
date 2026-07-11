@@ -2,7 +2,7 @@ import './App.css'
 import americanoImg from './assets/image/americano.jpeg'
 import coldbrewImg from './assets/image/coldbrew.png'
 import logoImg from './assets/image/logo.jpeg'
-import kosukaImg from './assets/image/americano.jpeg' // ganti dengan foto kosuka jika sudah tersedia
+import kosukaImg from './assets/image/kosuka.png'
 
 const WA_NUMBER = '6281211730011'
 
@@ -197,9 +197,9 @@ function App() {
           </p>
           <div className="about-values">
             {[
-              { icon: '🌿', title: 'Bahan Premium', desc: '100% biji Arabika pilihan terbaik' },
-              { icon: '✨', title: 'Racikan Elegan', desc: 'Dibuat dengan presisi dan penuh rasa' },
-              { icon: '📦', title: 'Siap Antar', desc: 'Order mudah, langsung via WhatsApp' },
+              { icon: '', title: 'Bahan Premium', desc: '100% biji Arabika pilihan terbaik' },
+              { icon: '', title: 'Racikan Elegan', desc: 'Dibuat dengan presisi dan penuh rasa' },
+              { icon: '', title: 'Siap Antar', desc: 'Order mudah, langsung via WhatsApp' },
             ].map((v) => (
               <div className="value-card" key={v.title}>
                 <span className="value-icon" aria-hidden="true">{v.icon}</span>
